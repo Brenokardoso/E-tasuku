@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('all_complete', models.BooleanField(default=None)),
-                ('complete_tasks', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='CabeçaAgenda.tarefas')),
+                ('complete_tasks', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='Cabeça_Agenda.tarefas')),
             ],
         ),
     ]
