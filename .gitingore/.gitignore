@@ -1,0 +1,41 @@
+Servidor_Agenda
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de configuração do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Arquivos de configuração do Django
+*/migrations/*
+*.log
+local_settings.py
+
+# Arquivos de mídia e arquivos estáticos gerados pelo projeto
+*/media/*
+*/static/*
+
+# Diretórios de ambiente virtual do Python
+venv/
+env/
+ENV/
+.env/
+
+# Outros arquivos para ignorar
+*.bak
+*.swp
+*.zip
+*.gz
+*.rar
+*.tar
+*.tar.gz
+*.tgz

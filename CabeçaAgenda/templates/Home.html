@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minha Tela de Home</title>]
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+
+            body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            }
+
+            .container {
+            background-color: #F2F3F5;
+            }
+
+            header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 40px;
+            padding: 8px 16px;
+            background-color: darkblue;
+            color: #FFFFFF;
+            }
+
+            .logo {
+            font-size: 24rem;
+            font-weight: bold;
+            font-style: italic;
+            color: white;
+            }
+
+            .search-box {
+            display: flex;
+            align-items: center;
+            }
+
+            input[type="text"] {
+            border-radius: 20px;
+            border: none;
+            padding: 8px;
+            margin-right: 8px;
+            }
+
+            button {
+            background-color: #FFFFFF;
+            color: #3B5998;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            }
+
+            .content {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            margin: 0 auto;
+            color:black
+            }
+
+            .left-sidebar {
+            flex: 1;
+            background-color: rgb(223, 222, 222);
+            padding: 16px;
+            }
+
+            .left-sidebar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            }
+
+            .left-sidebar li {
+            margin-bottom: 8px;
+            }
+
+            .left-sidebar li a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+            }
+
+            .left-sidebar li a:hover {
+            background-color: #E9EBEE;
+            }
+
+            .main-content {
+            flex: 3;
+            background-color: white;
+            padding: 16px;
+            }
+
+            .link-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 20px;
+            
+            }
+            * {
+            box-sizing: border-box;
+            }
+
+            body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            }
+            
+            .container {
+            background-color: #141414;
+            color: white;
+            }
+
+            .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            }
+
+            .logo {
+            font-size: 24px;
+            font-weight: bold;
+            }
+
+            .search-box {
+            display: flex;
+            align-items: center;
+            }
+
+            input[type="text"] {
+            border-radius: 20px;
+            border: none;
+            padding: 8px;
+            margin-right: 8px;
+            font-size: 16px;
+            }
+
+            button {
+            background-color: #FFF;
+            color: #222;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            }
+
+            .content {
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            }
+
+            .container-left {
+            flex: 1;
+            margin-right: 40px;
+            }
+
+            .container-right {
+            flex: 2;
+            }
+
+            .container-left h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            }
+
+            .container-left p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            }
+
+            .container-left a {
+            display: block;
+            background-color: #FFF;
+            color: #222;
+            padding: 12px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 20px;
+            }
+
+            .container-left a:hover {
+            background-color: #EEE;
+            }
+
+            .container-left a:first-of-type {
+            margin-top: 20px;
+            }
+
+            .container-right h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            }
+
+            .container-right .card {
+            background-color: #FFF;
+            color: #222;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            }
+
+            .container-right .card h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            }
+
+            .container-right .card p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            }
+
+            .container-right .card a {
+            display: block;
+            background-color: #222;
+            color: #FFF;
+            padding: 12px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            }
+
+            .container-right .card a:hover {
+            background-color: #444;
+            }
+
+            
+
+        
+        </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">E-tasuku</div>
+        <div class="search-box">
+          <input type="text" placeholder="Pesquise">
+          <button>Pesquisar</button>
+        </div>
+      </header>
+      <div class="content">
+        <div class="left-sidebar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href = "templates/index.html">Tarefas  </a></li>
+          </ul>
+        </div>
+        <div class="main-content">
+          <h1>Bem-vindo Breno,em que posso ajudar? </h1>
+          <space-between>
+          <p>Mais páginas:</p>
+          </space-between>
+          <div class="link-container">
+            <a href="algo1.html">Algo - 1</a>
+            <a href="algo2.html">Algo - 2</a>
+            <a href="algo3.html">Algo - 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
